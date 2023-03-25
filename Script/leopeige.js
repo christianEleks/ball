@@ -19,5 +19,7 @@
  }
 
  window.addEventListener("load", ()=> {
+   setTimeout(function(){
       document.querySelector(".loader").classList.remove("loader-active");
+   },2000)
 })
