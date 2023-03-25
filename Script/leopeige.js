@@ -21,5 +21,5 @@
  window.addEventListener("load", ()=> {
    setTimeout(function(){
       document.querySelector(".loader").classList.remove("loader-active");
-   },0000)
+   },1000)
 })
